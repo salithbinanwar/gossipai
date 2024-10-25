@@ -80,7 +80,7 @@ function App() {
         clearTimeout(scrollTimeout.current)
       }
     }
-  }, [messages])
+  }, [messages]) //done
 
   useEffect(() => {
     localStorage.setItem('chatMessages', JSON.stringify(messages))
